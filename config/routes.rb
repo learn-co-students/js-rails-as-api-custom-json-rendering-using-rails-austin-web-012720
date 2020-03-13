@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  get '/birds' => 'birds#index'
+  resources :birds
+  # get '/birds' => 'birds#index'
+  # get '/birds/:id' => 'birds#show'
 end
